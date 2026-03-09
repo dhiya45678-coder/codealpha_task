@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <title>My Web Projects</title>
@@ -7,13 +8,14 @@
 <style>
 
 body{
-font-family: Arial;
+font-family: Arial, sans-serif;
 background:#1e1e2f;
 color:white;
 display:flex;
 justify-content:center;
 align-items:center;
 height:100vh;
+margin:0;
 text-align:center;
 }
 
@@ -21,6 +23,7 @@ text-align:center;
 background:#2c2c3e;
 padding:40px;
 border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
 }
 
 h1{
@@ -36,10 +39,12 @@ color:white;
 text-decoration:none;
 border-radius:5px;
 font-size:18px;
+transition:0.3s;
 }
 
 a:hover{
 background:#43a047;
+transform:scale(1.05);
 }
 
 </style>
@@ -52,11 +57,12 @@ background:#43a047;
 
 <h1>My Web Projects</h1>
 
-<a href="calculator/index.html">🧮 Open Calculator</a>
+<a href="./calculator/index.html">🧮 Open Calculator</a>
 
-<a href="image-gallery/index.html">🖼️ Open Image Gallery</a>
+<a href="./image-gallery/index.html">🖼️ Open Image Gallery</a>
 
 </div>
 
 </body>
+
 </html>
